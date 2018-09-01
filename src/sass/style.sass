@@ -1,0 +1,58 @@
+// GENERAL
+
+.flex
+  display: flex
+
+body
+    margin: 0 
+    font-family: 'Roboto', sans-serif
+    overflow: hidden
+
+
+// COLORS
+
+
+$color-0: #6E779A;	// Main Primary color */
+$color-1: #C9CCD9;
+$color-2: #979DB7;
+$color-3: #4C5681;
+$color-4: #313C68;
+
+
+
+
+// HEADER
+
+
+#header
+  width: 100%
+  height: 25vh;
+  flex-direction: column
+  justify-content: center
+  align-content: center
+  text-align: center
+  background-color: $color-3
+  > h1 
+    margin-bottom: 10px
+
+// EDITOR
+
+#editor
+  max-width: 1300px
+  height: 75vh
+  margin-left: auto
+  margin-right: auto
+  > div
+    margin: 20px
+
+#text-editor
+  width: 50%
+
+#text-area
+  width: 100%
+  height: 100%
+  // min-height: 30vh
+
+#live-preview
+  width: 50%
+  overflow-y: scroll
