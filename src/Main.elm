@@ -25,8 +25,7 @@ defaultText : String
 defaultText =
     """# Markdown example
 
-An online markdown editor written in Elm.
-Code highlighting thanks to highlight.js
+An simple markdown editor written in Elm. Code highlighting thanks to highlight.js
 
 ```julia
 print("Hello World")
